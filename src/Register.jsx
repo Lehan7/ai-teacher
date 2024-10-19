@@ -8,7 +8,7 @@ const Register = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('http://localhost:5001/register', {
+    const response = await fetch('https://ai-teacher-backend.vercel.app/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
