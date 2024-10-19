@@ -10,7 +10,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('http://localhost:5001/login', {
+    const response = await fetch('https://ai-teacher-backend.vercel.app/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
